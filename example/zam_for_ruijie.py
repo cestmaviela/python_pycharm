@@ -1,5 +1,4 @@
 #!/bin/python
-#version1.1
 import os
 import sys
 
