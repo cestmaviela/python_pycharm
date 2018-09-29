@@ -6,7 +6,9 @@ class Student():
     def say(self):
         self.name = "aaa"
         self.age = 200
-
+    def sayAgain(s):
+        print("My name is {0}".format(__class__.name))
+        print("My name is xx")
 #实例化一个对象
 youyou = Student()
 youyou.__dict__
@@ -36,3 +38,7 @@ print(a.name)
 print(a.age)
 print(id(a.name))
 print(id(a.age))
+
+#Student.sayAgain()
+#a.say()
+a.sayAgain()
