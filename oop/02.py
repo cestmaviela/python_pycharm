@@ -39,6 +39,8 @@ print(a.age)
 print(id(a.name))
 print(id(a.age))
 
+print("*" * 40)
 #Student.sayAgain()
 #a.say()
+a.say()
 a.sayAgain()
